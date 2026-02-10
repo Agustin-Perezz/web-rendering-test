@@ -22,10 +22,10 @@
     class="bg-muted/50 text-md space-y-2 rounded-lg p-5 pt-2 leading-relaxed"
   >
     <p>
-      <strong>How it works:</strong> When you request this page, the server runs
-      the load function, generates the full HTML with the data already embedded,
-      and sends it to the browser. The page is visible immediately — no JavaScript
-      needed for the initial render.
+      <strong>How it works:</strong> When you request this page, the server runs the
+      load function, generates the full HTML with the data already embedded, and sends
+      it to the browser. The page is visible immediately — no JavaScript needed for
+      the initial render.
     </p>
     <p class="text-muted-foreground">
       The data below was fetched and rendered on the server at request time.

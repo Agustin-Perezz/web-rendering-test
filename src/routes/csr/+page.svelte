@@ -31,8 +31,8 @@
   >
     <p>
       <strong>How it works:</strong> The server sends an empty HTML shell and the
-      browser runs JavaScript to render the page. This means it can use reactive
-      state, browser APIs, and update dynamically without any server involvement.
+      browser runs JavaScript to render the page. This means it can use reactive state,
+      browser APIs, and update dynamically without any server involvement.
     </p>
     <p class="text-muted-foreground">
       The counter and clock below only exist in the browser — there is no
