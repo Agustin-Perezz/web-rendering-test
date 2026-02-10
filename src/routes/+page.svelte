@@ -1,7 +1,11 @@
-<div class="flex min-h-screen flex-col items-center justify-center">
-  <h1>Basic SvelteKit Template</h1>
-  <p>
-    Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the
-    documentation
+<script lang="ts">
+  import { Button } from '$components/ui/button';
+</script>
+
+<div class="flex min-h-screen flex-col items-center justify-center gap-4">
+  <h1 class="text-2xl font-bold">Static Page</h1>
+  <p class="text-muted-foreground">
+    This page is statically rendered at build time.
   </p>
+  <Button href="/csr">Go to CSR Page</Button>
 </div>
