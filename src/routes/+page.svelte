@@ -7,5 +7,8 @@
   <p class="text-muted-foreground">
     This page is statically rendered at build time.
   </p>
-  <Button href="/csr">Go to CSR Page</Button>
+  <div class="flex gap-3">
+    <Button href="/csr">Go to CSR Page</Button>
+    <Button href="/ssr" variant="outline">Go to SSR Page</Button>
+  </div>
 </div>
